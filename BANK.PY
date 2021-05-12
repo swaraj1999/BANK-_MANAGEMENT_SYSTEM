@@ -8,10 +8,10 @@ class Account :
     type = ''
     
     def createAccount(self):
-        self.accNo= int(input("Enter the account no : "))
-        self.name = input("Enter the account holder name : ")
-        self.type = input("Ente the type of account [C/S] : ")
-        self.deposit = int(input("Enter The Initial amount(>=500 for Saving and >=1000 for current"))
+        self.accNo= int(input("Enter account no : "))
+        self.name = input("Enter account holder name : ")
+        self.type = input("Enter type of account [C/S] : ")
+        self.deposit = int(input("Enter Initial amount(>=500 for Saving and >=1000 for current"))
         print("\n\n\nAccount Created")
     
     def showAccount(self):
@@ -46,12 +46,9 @@ class Account :
     
 
 def intro():
-    print("\t\t\t\t**********************")
+    print("\t\t\t\t>>>>>>>>>>>>>>>>>>>>>>")
     print("\t\t\t\tBANK MANAGEMENT SYSTEM")
-    print("\t\t\t\t**********************")
-
-    print("\t\t\t\tBrought To You By:")
-    print("\t\t\t\tprojectworlds.in")
+    print("\t\t\t\t<<<<<<<<<<<<<<<<<<<<<<")
     input()
 
 
@@ -182,8 +179,8 @@ while ch != 8:
     print("\t3. WITHDRAW AMOUNT")
     print("\t4. BALANCE ENQUIRY")
     print("\t5. ALL ACCOUNT HOLDER LIST")
-    print("\t6. CLOSE AN ACCOUNT")
-    print("\t7. MODIFY AN ACCOUNT")
+    print("\t6. CLOSE ACCOUNT")
+    print("\t7. MODIFY ACCOUNT")
     print("\t8. EXIT")
     print("\tSelect Your Option (1-8) ")
     ch = input()
